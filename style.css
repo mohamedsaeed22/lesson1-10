@@ -1,0 +1,657 @@
+button {
+  cursor: pointer;
+  border: none;
+}
+.title {
+  background-color: rgba(255, 0, 0, 0.368);
+  padding: 10px 0;
+  text-align: center;
+}
+/* ====================================== lesson_2 ====================================== */
+.uber_btn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.cart_btn {
+  background-color: rgb(255, 216, 20);
+  padding: 8px 40px;
+  border-radius: 30px;
+}
+.sign_btn {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  font-weight: bold;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+.start_btn {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+.download_btn {
+  background-color: transparent;
+  color: rgb(108, 117, 125);
+  padding: 8px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  border: 1px solid rgb(108, 117, 125);
+}
+
+.apply_btn {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.save_btn {
+  background-color: transparent;
+  color: rgb(10, 102, 194);
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  border: 1px solid rgb(10, 102, 194);
+}
+.stock_p {
+  color: rgb(0, 118, 0);
+}
+
+.buy_btn {
+  padding: 8px 40px;
+  border-radius: 30px;
+  background-color: rgb(255, 164, 28);
+}
+
+/* ====================================== lesson_3 ====================================== */
+.lesson3 .uber_btn:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+.lesson3 .cart_btn:hover {
+  background-color: rgba(30, 255, 0, 0.684);
+}
+.lesson3 .sign_btn:hover {
+  transition: 0.3s;
+  box-shadow: 2px 6px 10px rgb(169 161 161);
+}
+.lesson3 .start_btn:hover {
+  transition: 0.3s;
+  background-color: rgb(95, 49, 163);
+}
+.lesson3 .download_btn:hover {
+  transition: 0.3s;
+  color: white;
+  background-color: rgb(108, 117, 125);
+}
+.lesson3 .apply_btn:hover {
+  transition: 0.3s;
+  background-color: rgb(9, 80, 151);
+}
+.lesson3 .save_btn:hover {
+  background-color: rgba(0, 0, 255, 0.097);
+  border-width: 2px;
+}
+.lesson3 .amazon_link:hover {
+  color: red;
+}
+.lesson3 .cart_btn:active,
+.buy_btn:active {
+  opacity: 0.4;
+}
+/* ====================================== lesson_4 ====================================== */
+.next_btn,
+.back_btn {
+  padding: 10px 8px;
+}
+.stretch {
+  padding: 10px;
+  transition: all 1s ease-in-out;
+  background-color: red;
+  color: white;
+}
+.stretch:hover {
+  padding: 15px;
+}
+.shadow {
+  padding: 10px;
+  transition: all 0.1s ease-in-out;
+  background-color: red;
+  color: white;
+  box-shadow: 2px 6px 10px rgb(169 161 161);
+}
+.shadow:active {
+  margin-left: 5px;
+  margin-top: 5px;
+  box-shadow: none;
+}
+.one,
+.two,
+.three {
+  transition: all 0.1s ease-in-out;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+}
+.one:hover,
+.two:hover,
+.three:hover {
+  padding-inline: 15px;
+}
+/* ====================================== lesson_5 ====================================== */
+
+.tahoma {
+  font-family: "Tahoma";
+}
+.arial {
+  font-family: "Arial";
+  margin-bottom: 0;
+}
+.lesson5 span {
+  color: red;
+}
+
+.wrapper_verdana {
+  font-family: Verdana;
+  > h4 {
+    margin-bottom: 0;
+  }
+  > span {
+    font-size: 12px;
+    color: cadetblue;
+  }
+  > p {
+    font-size: 15px;
+  }
+  > button {
+    background-color: red;
+    color: white;
+    padding: 6px 8px;
+    border-radius: 4px;
+  }
+}
+
+.wrapper_arial {
+  margin-block: 60px;
+  font-family: Arial;
+  width: 400px;
+  text-align: center;
+  > h4 {
+    margin-bottom: 0;
+  }
+  > p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  > a {
+    text-decoration: none;
+  }
+}
+
+.container_arial {
+  margin-block: 80px;
+  font-family: Arial;
+  width: 400px;
+  text-align: center;
+  > span {
+    display: block;
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+  > p {
+    margin: 0;
+    font-weight: bold;
+  }
+  > h2 {
+    margin: 0;
+  }
+  .price {
+    color: black;
+    margin-block: 10px;
+    font-size: 15px;
+  }
+  > button {
+    color: white;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+}
+.container_price {
+  margin-block: 80px;
+  font-family: Arial;
+  width: 400px;
+  > h1 {
+    display: inline-block;
+    font-weight: normal;
+    margin-bottom: 8px;
+  }
+  > span {
+    color: cadetblue;
+  }
+  .rise {
+    margin: 1px 0 10px;
+  }
+  .today {
+    color: green;
+  }
+  .hour span {
+    color: cadetblue;
+  }
+  .hour .per {
+    color: red;
+  }
+}
+
+.code-camp {
+  font-family: Arial;
+  width: 500px;
+  > h4 {
+    display: inline;
+    margin-bottom: 0;
+  }
+  > span {
+    color: cadetblue;
+  }
+  > p > a {
+    text-decoration: none;
+  }
+}
+
+/* ================================== lesson_6===================== */
+
+.lesson6 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.lesson6 p span {
+  text-decoration: underline;
+}
+/* ================================== lesson_7===================== */
+
+.lesson7 {
+  text-align: center;
+}
+
+.lesson7 .imgs_container {
+  > img {
+    margin-left: 20px;
+    width: 200px;
+  }
+  > img:nth-child(1) {
+    border-radius: 10px;
+  }
+  > img:nth-child(3) {
+    border-radius: 50%;
+  }
+}
+
+.inputs_container {
+  margin-top: 50px;
+  > input:nth-child(1) {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  > input:nth-child(2) {
+    margin-top: 20px;
+    width: 400px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+.linkedIn_signup {
+  font-family: sans-serif;
+  text-align: left;
+  margin-top: 40px;
+  > label {
+    display: block;
+    color: #c70c7c;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  > input {
+    border-radius: 4px;
+    border: 1px solid #c70c7c;
+    padding: 6px;
+    width: 220px;
+  }
+  > p {
+    color: #c70c7c;
+    font-size: 10px;
+  }
+  > button {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 80px;
+    border-radius: 20px;
+  }
+}
+
+.twitter_box {
+  margin-top: 40px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  > img {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 10px;
+  }
+  > button {
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+/* ================================== lesson_8 ===================== */
+
+.lesson8 {
+  margin-top: 20px;
+}
+
+.inputs_box input:nth-child(1) {
+  margin-bottom: 4px;
+  display: block;
+}
+
+.par_box {
+  margin-top: 10px;
+  width: 300px;
+  background-color: #c70c7c1b;
+  display: inline-block;
+  > p {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+  }
+}
+
+.inputs_container {
+  > img {
+    width: 200px;
+    text-align: center;
+    display: block;
+  }
+  > .google {
+    margin-top: 20px;
+    width: 400px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+.signup_form {
+  margin-top: 40px;
+  width: 220px;
+  > input {
+    width: 85px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  > input:nth-child(1) {
+    margin-right: 2px;
+    margin-bottom: 8px;
+  }
+  > input:nth-child(3) {
+    width: 90%;
+  }
+
+  > button {
+    margin-top: 8px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+.uber_form {
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  > h1 {
+    margin-bottom: 10px;
+  }
+  > input {
+    display: block;
+    width: 250px;
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    background-color: #ddd;
+  }
+  > button {
+    margin-top: 20px;
+  }
+  > .later_btn {
+    padding: 10px;
+    margin-left: 10px;
+  }
+}
+
+/* ================================== lesson_9 ===================== */
+
+.lesson9 {
+  margin-top: 40px;
+}
+.square {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+.circle {
+  margin-left: 10px;
+  display: inline-block;
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  background-color: red;
+}
+.services {
+  margin-top: 20px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+}
+.youtube {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  background-color: black;
+  > p:nth-child(1) {
+    color: white;
+    font-weight: bold;
+  }
+  > p:nth-child(2) {
+    color: #c70c7c;
+    font-size: 12px;
+  }
+}
+.shadow-box {
+  margin-top: 10px;
+  width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 8px;
+  > .twitter_box {
+    margin-top: 0;
+  }
+}
+
+.card {
+  border: 1px solid #ccc;
+  width: 150px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  > img {
+    max-width: 100%;
+    width: fit-content;
+  }
+  > h2 {
+    padding: 4px;
+    margin: 8px 0 4px;
+    font-size: 14px;
+  }
+  > p {
+    padding: 0;
+    margin: 0 4px 8px;
+    font-size: 12px;
+  }
+  > button {
+    background-color: rgba(0, 0, 255, 0.632);
+    padding: 8px 10px;
+    margin: 8px;
+    border-radius: 8px;
+    color: white;
+  }
+}
+.card {
+  display: inline-block;
+}
+.btns {
+  margin-top: 40px;
+  margin-left: 40px;
+  > button {
+    padding: 10px;
+    margin-left: 8px;
+    font-weight: bold;
+  }
+}
+
+/* ================================== lesson_10 ===================== */
+
+.lesson10 {
+  margin-top: 40px;
+}
+.row {
+  width: 220px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid blue;
+  > .col1 {
+    position: relative;
+    flex-grow: 1;
+    border-right: 4px solid blue;
+    height: 100%;
+    > img {
+      position: absolute;
+      display: block;
+      max-width: 100%;
+      width: 60px;
+      border-radius: 50%;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  > .col2 {
+    flex-grow: 1;
+    height: 100%;
+    border: 4px solid red;
+    > h2 {
+      margin: 0;
+      font-size: 18px;
+    }
+    > p {
+      color: #c70c7c;
+      border-top: 4px solid red;
+    }
+  }
+}
+
+.row2 {
+  display: inline-flex;
+}
+.row2 .row,
+.row2 .row .col1,
+.row2 .col2,
+.row2 .col2 p {
+  border: none;
+}
+.follow_btn {
+  height: 40px;
+  vertical-align: middle;
+  margin-top: 10%;
+  padding: 10px;
+  background-color: rgba(0, 0, 128, 0.541);
+  color: white;
+  border-radius: 4px;
+}
+.row2 .row .col2 h2 {
+  margin: 17px 0 0;
+}
+.row2 .row .col2 p {
+  margin: 0;
+}
+
+.youtube-row {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  width: 500px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.youtube-row .col1 img {
+  max-width: 100%;
+  width: 200px;
+}
+.youtube-row .col2 p {
+  line-height: 1.2;
+  margin: 0 0 10px 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.youtube-row .col2 span {
+  display: block;
+  font-size: 15px;
+  color: #c70c7c;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.animal-cards .card .row1 img {
+  max-width: 100%;
+}
+.card p {
+  font-weight: bold;
+  font-size: 14px;
+}
+.animal-cards .card .row2 img {
+  max-width: 100%;
+  width: 20px;
+  border-radius: 50%;
+  margin-inline: 4px;
+}
+.animal-cards .card .row2 span {
+  font-size: 14px;
+  color: #c70c7c;
+}
